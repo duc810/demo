@@ -15,24 +15,7 @@ use Illuminate\Pagination\LengthAwarePaginator as Paginator; dfgdfgfdgfdgd
 use Core\Handlers\AdstextActionHandler as AdstextHandler;
 
 class NewsController extends BaseController
-{
-	/**
-	 * Returns all the news posts.
-	 *
-	 * @return View
-	 */
-	public function getCategory($catSlug)
-	{
-		/* check category slug */
-		$provinceSlug = $this->data['tagHandler']->getListProvinceSlugs();
-		
-		if(!is_null($provinceSlug) && in_array($catSlug, $provinceSlug)) {
-			$data = $this->getProvinces($catSlug);
-			return view('provinces/province', $data);
-		} else {
-			return $this->getNormalCategory($catSlug);
-		}        
-	}
+{cfdfsd
 
 	public function getNormalCategory($catSlug)
 	{
