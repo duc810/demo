@@ -11,7 +11,7 @@ use App\Post;
 use App\Tag;
 use App\Breadcrumbs;
 // use Illuminate\Pagination\Paginator as Paginator;
-use Illuminate\Pagination\LengthAwarePaginator as Paginator; dfgdfgfdgfdgd
+use Illuminate\Pagination\LengthAwarePaginator as Paginator;
 use Core\Handlers\AdstextActionHandler as AdstextHandler;
 
 class NewsController extends BaseController
