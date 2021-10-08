@@ -1,2 +1,4 @@
 ok em oi 9999999
 fsdfdsfsfsfsdfs
+
+The tool has a paid version for companies and another version for personal projects. It has integration with GitHub and Gitlab and with it, managing our programs becomes very easy.
